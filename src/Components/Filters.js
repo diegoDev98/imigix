@@ -55,8 +55,8 @@ export default function Filters(props) {
                         <option value="7">7</option>
                         <option value="8">8</option>
                         <option value="90">90</option>
-                        <option value="170">170</option>
-                        <option value="280">280</option>
+                        <option value="170">180</option>
+                        <option value="280">270</option>
                     </select>
                 </div>
                 <div className="rot">
