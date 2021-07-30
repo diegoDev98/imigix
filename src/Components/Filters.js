@@ -73,7 +73,7 @@ export default function Filters(props) {
                 </div>
             <div className="width">
                     <label htmlFor="w">Width:</label>
-                    <input type="number" value="500" min="0" max="1980" id="w" onChange={handleUrl}/>
+                    <input type="number"  min="0" max="1980" id="w" onChange={handleUrl}/>
                 </div>
             </div>
 
