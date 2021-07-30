@@ -1,0 +1,25 @@
+nav ul li {
+    list-style-type: none;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 40px;
+}
+li:hover {
+    cursor: pointer;
+    background-color: #00bfffab;
+    border-radius: 10px 0 10px 0;
+    -webkit-border-radius: 10px 0 10px 0;
+    -moz-border-radius: 10px 0 10px 0;
+    -ms-border-radius: 10px 0 10px 0;
+    -o-border-radius: 10px 0 10px 0;
+}
