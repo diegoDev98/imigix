@@ -13,13 +13,15 @@ nav li {
     align-items: center;
     width: 20%;
     height: 40px;
-}
-li:hover {
-    cursor: pointer;
-    background-color: #00bfffab;
+    border: 5px solid white;
     border-radius: 10px 0 10px 0;
     -webkit-border-radius: 10px 0 10px 0;
     -moz-border-radius: 10px 0 10px 0;
     -ms-border-radius: 10px 0 10px 0;
     -o-border-radius: 10px 0 10px 0;
+}
+li:hover {
+    cursor: pointer;
+    background-color: #00bfffab;
+    
 }
