@@ -1,4 +1,4 @@
-import { useEffect,useState } from 'react';
+import {useState } from 'react';
 import './App.css';
 import Filters from './Components/Filter/Filters';
 import Navigation from './Components/Navigation';
@@ -33,11 +33,11 @@ function upload(evt) {
     <div className="App">  
       <img src={src + '?w=500'} alt="imigix" id="img"></img><br/>
       <label htmlFor="ingresoManual">Ingresar Manualmente:</label><input type="text" id="ingresarManualmente" ></input> <button id="enter" onClick={updateImg}>Enter</button><br/>
-      <div class="button-wrapper">
-        <span class="label">
+      <div className="button-wrapper">
+        <span className="label">
           Upload File
         </span>
-        <input type="file" name="upload" id="upload" class="upload-box" onChange={upload} />
+        <input type="file" name="upload" id="upload" className="upload-box" onChange={upload} />
       </div>
 
       <div>
